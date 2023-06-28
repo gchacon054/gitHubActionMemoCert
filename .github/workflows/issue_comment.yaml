@@ -4,7 +4,7 @@ on:
   issues:
     types: [opened]
 permissions:
-  issues: read|write|none
+  issues: write
   
 jobs:
   comment-with-action:
