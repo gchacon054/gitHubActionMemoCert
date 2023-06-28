@@ -20,7 +20,7 @@ jobs:
 
   goodbye:
     runs-on: ubuntu-latest
-      steps:
-        - name: goobye World
-          run: echo "Goodbye World"
-          shell: bash
+    steps:
+      - name: goobye World
+        run: echo "Goodbye World"
+        shell: bash
