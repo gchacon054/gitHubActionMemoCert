@@ -19,6 +19,7 @@ jobs:
         shell: bash
 
   goodbye:
+    needs: hello
     runs-on: ubuntu-latest
     steps:
       - name: goobye World
